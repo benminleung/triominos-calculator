@@ -1,0 +1,15 @@
+.main-page {
+  max-width: 768px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  .footer {
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-end;
+    &>p {
+        width: 100%;
+    }
+  }
+}

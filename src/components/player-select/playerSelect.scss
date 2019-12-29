@@ -1,0 +1,12 @@
+.player-select {
+  .players {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    .player-box {
+      background: grey;
+      &.selected {
+        background: lightblue;
+      }
+    }
+  }
+}
